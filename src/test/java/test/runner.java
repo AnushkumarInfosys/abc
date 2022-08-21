@@ -13,6 +13,7 @@ public class runner {
 		  //print corona cases
 		  String cc = driver.findElement(By.xpath("//div[@class='maincounter-number']//span")).getText();
 		  System.out.println(cc);
+		System.out.println("Irfan");
 	}
 	}
 
